@@ -1,12 +1,3 @@
-# "1-1. 머신러닝을 위한 주가 데이터셋 생성"
-> "2022 DS&ML Stock Prediction Project | 1. Stock Prediction Part.1 - baseline model "
-
-- toc:true
-- badges: true
-- comments: true
-- author: ag-su
-- categories: [Stock Prediction]
-
 # 1. Stock Prediction Part.1 - baseline model  
 ## 1-1. 머신러닝을 위한 주가 데이터셋 생성
 주가 데이터셋 생성 절차는 `df2list` - `dictionary` - `MultiProcessing` - `MySQL` 순서로 진행한다. 4가지 절차를 통해 데이터셋이 달라지는 것은 아니고, 속도를 개선시키는 방향으로의 효율적인 코드를 짜기 위한 훈련 과정이다. 대규모 데이터셋을 다루기 위해서는 효율적인 코딩을 통해 속도를 개선하는 것도 중요한 일이다. 특히 이번에 사용하는 주가 데이터셋은 양이 많을 뿐만 아니라, `fdr` 라이브러리를 사용하여 외부에서 불러와야하기 때문에 데이터셋을 구성하는 것만 해도 속도가 상당히 느리다. 이러한 문제점을 해결하고자 본 포스팅에서는 4단계에 걸친 데이터셋 생성 과정을 보여준다.  

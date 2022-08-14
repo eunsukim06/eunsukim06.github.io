@@ -1,11 +1,7 @@
-# "1-1. 머신러닝을 위한 주가 데이터셋 생성"
-> "2022 DS&ML Stock Prediction Project | 1. Stock Prediction Part.1 - baseline model "
-
-- toc:true
-- badges: true
-- comments: true
-- author: ag-su
-- categories: [Stock Prediction]
+---
+layout: single 
+title: 제목
+---
 
 # 1. Stock Prediction Part.1 - baseline model  
 ## 1-1. 머신러닝을 위한 주가 데이터셋 생성

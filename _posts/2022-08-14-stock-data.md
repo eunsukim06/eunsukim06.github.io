@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  ""
+title:  "first"
 ---
 
 # 1. Stock Prediction Part.1 - baseline model  
